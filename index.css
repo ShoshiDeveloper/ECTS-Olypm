@@ -1,0 +1,486 @@
+* {
+    margin: 0px 0px;
+    padding: 0px;
+    text-decoration-line: none;
+
+    
+    font-family: 'Roboto Slab';
+    line-height: 110%;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 32px;
+}
+p {
+    font-weight: 300;
+    font-size: 24px;
+}
+
+body {
+    margin: 0 80px;
+}
+
+h5 {
+    font-family: 'Roboto Slab';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 110%;
+    color: #A263F2;
+    
+    margin: 80px 0px;
+}
+
+input, select {
+    padding: 10px;
+    gap: 10px;
+
+    width: 237px;
+
+    border: 1px solid #4E5FF9;
+    border-radius: 10px;
+    background-color: transparent;
+
+    color: #6776FA;
+}
+
+button {
+    padding: 10px;
+    background-color: #A263F2;
+    border-radius: 10px;
+
+    color: white;
+    
+    font-family: 'Roboto Slab';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 110%;
+    border: 0px;}
+
+.nav {
+    margin: 20px 0 48px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.logo h1 {
+    font-size: 32px;
+}
+.logo p {
+    font-size: 16px;
+}
+.logo img {
+    width: 32px;
+    height: 30px;
+}
+.nav_buttons {
+    font-family: 'Roboto Slab';
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 110%;
+}
+
+.nav_buttons a {
+    margin: 27.5px;
+    color: black;
+    text-decoration-line: none;
+}
+
+
+.information {
+    padding: 70px 0 0 110px;
+    height: 500px;
+    /* width: 1280px; */
+    background-image: url("img/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    
+    border-radius: 50px;
+}
+.information h1 {
+    width: 390px;
+    margin-bottom: 10px;
+
+    font-weight: 700;
+    font-size: 48px;
+}
+.information p {
+    width: 391px;
+    margin-top: 10px;
+    margin-bottom: 35px;
+
+
+}
+.contact_with_us {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.contact_with_us button {
+    background-color: #A263F2;
+
+}
+.block_telephone {
+    margin-left: 64px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.block_telephone p {
+    margin: 0px;
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: 16px;
+
+
+    color: #A263F2;
+}
+.block_telephone span {
+    color: black;
+}
+.block_telephone img {
+    width: 41px;
+    height: 41px;
+}
+
+/*======================================================*/
+/* .services {
+    margin: 80px 0px;
+} */
+.services_description {
+    margin-top: 56px;
+    margin-bottom: 66px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.services_description h1 {
+    width: 500px;
+    font-size: 28px;
+
+}
+.services_description p {
+    width: 500px;
+}
+
+.list_services {
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 40px;
+    justify-content: center;
+}
+.service {
+    width: 240px;
+    height: 240px;
+
+    border: 2px solid #BFE3F8;
+    border-radius: 20px;
+
+    text-align: center;
+}
+.service:hover {
+    box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.25);
+    border: 0px;
+}
+.service h3 {
+    font-family: 'Roboto Slab';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 110%;
+}
+.service p {
+    width: 200px;
+    height: 60px;
+    margin:  0 auto;
+    font-size: 14px;
+}
+.service img {
+    margin: 21px 0px;
+    width: 98px;
+    height: 98px;
+}
+
+/*==================================*/
+
+.discount {
+    height: 180px;
+    margin-top: 110px;
+    background-image: url("img/discount_bg.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+}
+.discount h1 {
+    width: 381px;
+    margin-left: 50px;
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.discount h2 {
+text-align: center;
+margin-left: 100px;
+
+    font-weight: 600;
+    font-size: 64px;
+
+    background: linear-gradient(95.51deg, #FFBA00 9.82%, #FF6200 111.16%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+
+/*===============================*/
+
+.advantages .block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.advantages .block img {
+    width: 545px;
+    height: 405px;
+}
+
+.info h1 {
+    width: 500px;
+
+    font-family: 'Roboto Slab';
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 110%;
+
+}
+.info p {
+    width: 500px;
+}
+
+/*================================*/
+
+.reviews p {
+    width: 630px;
+    margin-bottom: 85px;
+}
+.list_reviews {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-gap: 30px
+}
+.review {
+    width: 400px;
+    height: 280px;
+    box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.25);
+border-radius: 32px;
+}
+.review .block {
+    height: 200px;
+    margin: 40px auto;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+.review #name {
+    font-weight: 700;
+}
+.review #comment {
+    font-weight: 400;
+}
+
+.request {
+    margin-top: 80px;
+    padding: 30px 130px;
+    height: 200px;
+    background-color: #DBDEFA;
+    border-radius: 50px;
+}
+.request h5 {
+    margin: 0;
+}
+.request_form {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+.request_form h1 {
+    width: 400px;
+}
+.request_form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-gap: 5px;
+}
+.request_form form button {
+    background-color: #6877FF;
+}
+
+footer {
+    background-color: #BFE3F8;
+    height: 170px;
+    margin-top: 80px;
+
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+    
+    margin-left: -80px;
+    margin-right: -80px;
+}
+
+@media only screen and (min-width : 320px) and (max-width : 767px)  {
+    body {
+        margin: 0 20px;
+    }
+    .nav_buttons {
+        visibility: hidden;
+    }
+
+    .contact_with_us {
+        /* align-items: flex-end; */
+        flex-direction: column-reverse;
+    }
+
+    .information {
+        padding: 70px 0 0 10px;
+    }
+    .information h1 {
+        width: 370px;
+        font-size: 32px;
+    }
+    .information p {
+        width: 370px;
+        font-size: 18px;
+    }
+    .block_telephone {
+        margin-bottom: 10px;
+        margin-left: 40px;
+    }
+    /*=======================*/
+    .services_description {
+        flex-direction: column;
+    }
+    .services_description h1 {
+        width: 400px;
+    
+    }
+    .services_description p {
+        width: 400px;
+    }
+
+    h5 {
+        margin-bottom: 10px;
+    }
+    .discount {
+        
+        height: 90px;
+        background-position: center;
+    }
+    .discount h1 {
+        font-size: 24px;
+    }
+    .discount h2 {
+        margin-left: 50px;
+        font-size: 32px;
+
+    }
+
+    /*============*/
+    .advantages .block img {
+        width: 270.5px;
+        height: 202.5px;
+    }
+    .advantages .block {
+        flex-flow: column;
+    }
+    .advantages .block h1 {
+        width: 350px;
+    }
+    .advantages .block p {
+        width: 350px;
+    }
+    /**/
+    .reviews {
+        margin: 0px auto;
+    }
+    .reviews p {
+        width: 310px;
+        margin-bottom: 45px;
+    }
+    .request_form h1 {
+        width: 300px;
+    }
+    .request {
+        padding: 30px 30px;
+        height: 300px;
+    }
+    .request_form {
+        flex-flow: column;
+    }
+
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1024px) {
+
+    .nav_buttons {
+        visibility: hidden;
+    }
+    .information {
+        padding: 70px 0 0 20px;
+    }
+    .advantages .block {
+        flex-flow: column;
+    }
+    .discount {
+        
+        height: 90px;
+        background-position: center;
+    }
+    .discount h1 {
+        width: 150px;
+        font-size: 24px;
+    }
+    .discount h2 {
+        margin-left: 50px;
+        font-size: 32px;
+    }
+    .request {
+        height: 300px;
+    }
+    .request_form {
+        flex-flow: column;
+    }
+    .paths p {
+        font-size: 14px;
+    }
+    footer .logo .name h1 {
+        font-size: 24px;
+    }
+
+}
+
+@media only screen and (min-width : 1025px) and (max-width : 1440px) {
+    .nav_buttons a {
+        margin: 15px;
+    }
+    body {
+        margin: 0px 20px;
+    }footer {
+            
+        margin-left: -20px;
+        margin-right: -20px;
+        }
+}
